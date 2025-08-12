@@ -1,0 +1,46 @@
+# HW1 .gitignore
+# Ignore common temporary and system files
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Linux
+*~
+.nfs*
+
+# Windows
+*.tmp
+*.temp
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editor temporary files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Log files (unless part of your solution)
+*.log
+
+# Large test files (optional - uncomment if you create large test datasets)
+# test_files/*.csv
+# test_files/*.json
+# test_files/large_*
+
+# Backup files created by your script (if testing scenario 4)
+backups/
+*.backup
+*.bak
+
+# Temporary directories that might be created during testing
+temp/
+tmp/
+.temp/
